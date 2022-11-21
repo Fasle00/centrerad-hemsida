@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: pink;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.container{
+    width: min(80ch, 100vw - 2rem);
+    margin-inline: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+nav > ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
