@@ -26,3 +26,6 @@ nav > ul{
     gap: 2rem;
     list-style: none;
 }
+iframe{
+    padding-top: 1rem;
+}
